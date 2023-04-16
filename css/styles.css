@@ -1,0 +1,187 @@
+.gradient-background{
+   background: linear-gradient(300deg, #ff3149,#1af8de,#1ba8fa);
+   background-size: 280% 280%;
+   
+   overflow: hidden;
+   animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 100%;
+    }
+}
+.huehuehue{
+    width: 180px;
+    border-radius: 100%;
+    padding-bottom: 80px;
+}
+.phone{
+    position: relative;
+    
+}
+.iphone{
+    height: 400px;
+    transform: rotate(20deg);
+    width: auto;
+  position: absolute;
+  left: 170px;
+    
+}
+
+h1{
+    font-family: "montserrat-black",sans-serif;
+    size: 5rem;
+    line-height: 1.2;
+    padding-top: 5px;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: white;
+}
+.container-fluid{
+   padding: 4% 11%;
+ 
+
+}
+body{
+    font-family: "montserrat-bold", system-ui,'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+}
+.download-button{
+    margin: 6% 5% 4% 0;
+}
+#features{
+    padding: 7% 8%;
+    text-align: center;
+    
+}
+.feature-box{
+    padding: 4.5%;
+    font-size: 25px;
+}
+h2{
+    color: #fff;
+    font-family: "montserrat-bolder";
+    font-size: 300%;
+    line-height: 3.5rem;
+    padding: 2% 15%;
+}
+h3{
+    padding-top: 3%;
+    font-family: "montserrat-bold";
+    font-size: 35px;
+}
+.icon{
+    color: #f7805c;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    
+    text-align: center;
+    background-color: #f7805c;
+}
+#press{
+    background-color: #f7805c;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.name{
+    color: #fff;
+}
+.logo{
+    width: 180px;
+    margin: 20px 20px 50px;
+}
+.carousel-indicators{
+    right: 60px;
+}
+.lady-img{
+    border-radius: 100%;
+    width: 180px;
+    padding-bottom: 100px;
+}
+#pricing{
+    text-align: center;
+    
+}
+.pricing-tags{
+    color: black;
+    font-size: 40px;
+}
+.plan-tag{
+    color: black;
+    font-family: "montserrat-bold";
+    font-size: 55px;
+    margin-top: 60px;
+}
+.row{
+    margin: 80px 70px 0 70px;
+    
+}
+.col{
+    padding: 0px 60px;
+}
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding-bottom: 30px;
+    
+}
+#footer{
+    text-align: center;
+    background-color: #ff4c68;
+    font-size: 15px;
+    
+}    
+.down-button{
+    margin-right: 30px;
+}
+.navbar-brand{
+    padding-left: 90px;
+}
+p{
+    margin-bottom: 0;
+}
+
+/*-----------------------------------------------------------------------*/
+
+@media (max-width:1028px) {
+        .iphone{
+            height: 500px;
+            transform: rotate(0deg);
+            width: auto;
+          
+          left: 70px;
+        
+    }
+    #title{
+
+        padding-bottom: 500px;
+    }
+    .gradient-background{
+        background: linear-gradient(300deg, #ff3149,#1af8de,#1ba8fa);
+        background-size: 180% 180%;
+        
+        overflow: hidden;
+        animation: gradient-animation 18s ease infinite;
+     }
+     
+     @keyframes gradient-animation{
+         0% {
+             background-position: 0% 50%;
+         }
+         50% {
+             background-position: 100% 50%;
+         }
+         100% {
+             background-position: 0% 100%;
+         }
+     }
+}
